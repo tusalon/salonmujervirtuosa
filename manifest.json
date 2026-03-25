@@ -1,0 +1,22 @@
+{
+  "name": "Yoly Nails",
+  "short_name": "Yoly",
+  "description": "Uñas y belleza - Tu espacio de cuidado personal",
+  "start_url": "/yolynails/",
+  "scope": "/yolynails/",
+  "display": "standalone",
+  "background_color": "#ec4899",
+  "theme_color": "#ec4899",
+  "icons": [
+    {
+      "src": "/yolynails/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/yolynails/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
