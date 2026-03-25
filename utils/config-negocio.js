@@ -1,12 +1,12 @@
 // utils/config-negocio.js - VERSIÓN MULTI-TENANT CORREGIDA
-// CLIENTE: Yoly Nails
+// CLIENTE: Salón mujer Virtuosa
 
 console.log('🏢 config-negocio.js cargado');
 
 // ============================================
 // 🔥 CONFIGURACIÓN POR CLIENTE - ¡LO ÚNICO QUE CAMBIA!
 // ============================================
-const NEGOCIO_ID_POR_DEFECTO = '12c03e91-8d1e-4cae-9226-766e9fe5d7de'; // ID de Yoly Nails
+const NEGOCIO_ID_POR_DEFECTO = '9db1153b-107a-4166-b6ee-5bfc566a1931'; // ID de Salón mujer Virtuosa
 
 // Hacer accesible globalmente
 window.NEGOCIO_ID_POR_DEFECTO = NEGOCIO_ID_POR_DEFECTO;
@@ -116,7 +116,7 @@ window.cargarConfiguracionNegocio = async function(forceRefresh = false) {
  */
 window.getNombreNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.nombre || 'Yoly Nails';
+    return config?.nombre || 'Salón mujer Virtuosa';
 };
 
 /**
@@ -124,7 +124,7 @@ window.getNombreNegocio = async function() {
  */
 window.getTelefonoDuenno = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.telefono || '56559680';
+    return config?.telefono || '54136978';
 };
 
 /**
@@ -132,7 +132,7 @@ window.getTelefonoDuenno = async function() {
  */
 window.getEmailNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.email || '';
+    return config?.email || 'yiselvenega06@gmail.com';
 };
 
 /**
@@ -164,7 +164,7 @@ window.getHorarioAtencion = async function() {
  */
 window.getMensajeBienvenida = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.mensaje_bienvenida || '¡Bienvenida a Yoly Nails!';
+    return config?.mensaje_bienvenida || '¡Bienvenida a Salón mujer Virtuosa!';
 };
 
 /**
@@ -180,7 +180,7 @@ window.getMensajeConfirmacion = async function() {
  */
 window.getNtfyTopic = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.ntfy_topic || 'yolynails';
+    return config?.ntfy_topic || 'salonmujervirtuosa';
 };
 
 /**
@@ -205,5 +205,5 @@ setTimeout(async () => {
     await window.cargarConfiguracionNegocio();
 }, 500);
 
-console.log('✅ config-negocio.js listo para Yoly Nails');
+console.log('✅ config-negocio.js listo para Salón mujer Virtuosa');
 console.log('🏷️  ID configurado:', NEGOCIO_ID_POR_DEFECTO);
