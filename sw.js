@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Salón mujer Virtuosa
 
-const CACHE_NAME = 'salonmujervirtuosa-v29';
+const CACHE_NAME = 'salonmujervirtuosa-v47';
 const urlsToCache = [
   '/salonmujervirtuosa/',
   '/salonmujervirtuosa/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/salonmujervirtuosa/icons/icon-152x152.png',
   '/salonmujervirtuosa/icons/icon-192x192.png',
   '/salonmujervirtuosa/icons/icon-384x384.png',
-  '/salonmujervirtuosa/icons/icon-512x512.png'
+  '/salonmujervirtuosa/icons/icon-512x512.png',
+  '/salonmujervirtuosa/vendor/react.production.min.js',
+  '/salonmujervirtuosa/vendor/react-dom.production.min.js',
+  '/salonmujervirtuosa/vendor/babel.min.js',
+  '/salonmujervirtuosa/vendor/bcrypt.min.js',
+  '/salonmujervirtuosa/vendor/tailwind-browser.js',
+  '/salonmujervirtuosa/vendor/lucide/lucide.css',
+  '/salonmujervirtuosa/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================

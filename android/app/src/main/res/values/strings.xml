@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Salón mujer Virtuosa</string>
+    <string name="title_activity_main">Salón mujer Virtuosa</string>
+    <string name="package_name">com.tusalon.salonmujervirtuosa</string>
+    <string name="custom_url_scheme">com.tusalon.salonmujervirtuosa</string>
+</resources>
