@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Salón mujer Virtuosa
 
-const CACHE_NAME = 'salonmujervirtuosa-v49';
+const CACHE_NAME = 'salonmujervirtuosa-v56';
 const urlsToCache = [
   '/salonmujervirtuosa/',
   '/salonmujervirtuosa/index.html',
